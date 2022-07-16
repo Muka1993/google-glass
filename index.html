@@ -3,33 +3,23 @@
 
 <head>
     <meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">  
-    <meta name="author" content="Samuel">
-    <meta name="description" content="descrição bacanuda">
-    <meta name="keywords" content="html5, tecnologia">
     <title>Tudo sobre Google Glass</title>
     <link rel="stylesheet" href="_css/estilo.css">
     <link rel="shortcut icon" href="_imagens/globo.png" type="image/x-icon">
-
 </head>
 <script language="JavaScript" src="_javascript/funcoes.js"></script>
-<style>
-    h2 {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 22px;
-        color: black;
-    }
-</style>
+
 <body>
 <div id="interface">
 
 <header id="cabecalho">
-    <hgroup>
+    <hgroup> 
        <h1>Google Glass</h1>
        <h2>A revolução do Google está chegando</h2>
+	   <button onclick="myFunction()">Dark Light</button>
     </hgroup>
  
-   
+    
 
  <img id="icone" src="_imagens/glass-oculos-preto-peq.png"/>
    <nav id="menu">
@@ -51,13 +41,13 @@
     <hgroup>
       <h3>Tecnologia > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Inovações >  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Futuro > </h3>
       <h1>Saiba tudo sobre o Google Glass</h1>
-      <h2>por Samuel Candido</h2>
+      <h2 class="sml">por Samuel Candido</h2>
         <h3 class="direita"> Atualizado em 01/maio/2013</h3>
     </hgroup>
     </header>
 
-    <h2>O que é</h2>
-    <p>O <span style="font-weight:900;">Google Glass</span> é um acessório em forma de óculos que possibilita a interação dos usuários com diversos conteúdos em realidade aumentada. Também chamado de <a href="https://www.techtudo.com.br/tudo-sobre/google-glass.html" target="_blank"> Project Glass</a>, o eletrônico é capaz de tirar fotos a partir de comandos de voz, enviar mensagens instantâneas e realizar vídeo&shy;con&shy;ferên&shy;cias. Seu lançamento está previsto para 2014, e seu preço deve ser de US$ 1,5 mil. Atualmente o <em>Google Glass</em> encontra-se em fase de testes e já possui um vídeo totalmente gravado com o dispositivo. Além disso, a companhia de buscas registrou novas patentes anti-furto e de desbloqueio de tela para o acessório.</p>
+    <h2>O que é o Google Glass</h2>
+    <p>O <strong>Google Glass</strong> é um acessório em forma de óculos que possibilita a interação dos usuários com diversos conteúdos em realidade aumentada. Também chamado de <a href="https://www.techtudo.com.br/tudo-sobre/google-glass.html" target="_blank"> Project Glass</a>, o eletrônico é capaz de tirar fotos a partir de comandos de voz, enviar mensagens instantâneas e realizar vídeo&shy;con&shy;ferên&shy;cias. Seu lançamento está previsto para 2014, e seu preço deve ser de US$ 1,5 mil. Atualmente o <em>Google Glass</em> encontra-se em fase de testes e já possui um vídeo totalmente gravado com o dispositivo. Além disso, a companhia de buscas registrou novas patentes anti-furto e de desbloqueio de tela para o acessório.</p>
 <figure class="foto-legenda">
     <img src="_imagens/glass-quadro-homem-mulher.jpg"/>
     <figcaption>
@@ -110,116 +100,129 @@
    <h2>Veja Nossas Fotos</h2>
    <p>Como visto o <a href="http://glass.google.com">Google Glass</a> tem muitas vantagens algo q pode revolucionar o mundo de Tecnologias avançadas, com o mercado aquecido na área da Tecnologia, Veja as imagens a seguir.</p>
   
+
+   
+<!-- ÁREA DO CARROSSEL -->
+
    <section>
-	<div class='rt-container'>
-		<div class='col-rt-12'>
-			<div class='demo-container'>
-				<div class='carousel-tn'>
-					<input checked='checked' class='carousel-tn__activator' id='carousel-tn-slide-activator-1' name='carousel-tn' type='radio'>
-					<input class='carousel-tn__activator' id='carousel-tn-slide-activator-2' name='carousel-tn' type='radio'>
-					<input class='carousel-tn__activator' id='carousel-tn-slide-activator-3' name='carousel-tn' type='radio'>
-					<input class='carousel-tn__activator' id='carousel-tn-slide-activator-4' name='carousel-tn' type='radio'>
-					<input class='carousel-tn__activator' id='carousel-tn-slide-activator-5' name='carousel-tn' type='radio'>					
-				<div class='carousel-tn__controls'>
-						<label class='carousel-tn__control carousel-tn__control--backward' for='carousel-tn-slide-activator-5'>&#60;</label>
-						<label class='carousel-tn__control carousel-tn__control--forward' for='carousel-tn-slide-activator-2'>&#62;</label>
-				</div>
-					<div class='carousel-tn__controls'>
-						<label class='carousel-tn__control carousel-tn__control--forward' for='carousel-tn-slide-activator-1'>&#60;</label>
-						<label class='carousel-tn__control carousel-tn__control--backward' for='carousel-tn-slide-activator-3'>&#62;</label>
-					</div>
-				<div class='carousel-tn__controls'>
-						<label class='carousel-tn__control carousel-tn__control--forward' for='carousel-tn-slide-activator-2'>&#60;</label>
-						<label class='carousel-tn__control carousel-tn__control--backward' for='carousel-tn-slide-activator-4'>&#62;</label>
-				 </div>
-					<div class='carousel-tn__controls'>
-						<label class='carousel-tn__control carousel-tn__control--forward' for='carousel-tn-slide-activator-3'>&#60;</label>
-						<label class='carousel-tn__control carousel-tn__control--backward' for='carousel-tn-slide-activator-5'>&#62;</label>
-					</div>
-					<div class='carousel-tn__controls'>
-						<label class='carousel-tn__control carousel-tn__control--forward' for='carousel-tn-slide-activator-4'>&#60;</label>
-						<label class='carousel-tn__control carousel-tn__control--backward' for='carousel-tn-slide-activator-1'>&#62;</label>
-					</div>
-					<div class='carousel-tn__screen'>
-						<div class='carousel-tn__track'>
-							<div class='carousel-tn__item-in1 carousel-tn__item-in1--desktop-in-1'>
-								<div class='item-in1-tn-content'>
-									<div class='item-in1-container'>
-										<div class='item-in1-img-container'>
-											<a href='_imagens/15725595882_f56c888fb2_w.jpg'>
-												<img src='_imagens/15725595882_f56c888fb2_w.jpg'/>
-											</a>
-										</div>
-										<div class='item-in1-desc-container'>
-											
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class='carousel-tn__item-in1 carousel-tn__item-in1--desktop-in-1'>
-								<div class='item-in1-tn-content'>
-									<div class='item-in1-container'>
-										<div class='item-in1-img-container'>
-											<a href='_imagens/14173796195_84dc74a265_w.jpg'>
-												<img src='_imagens/14173796195_84dc74a265_w.jpg'/>
-											</a>
-										</div>
-										<div class='item-in1-desc-container'>
-											
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class='carousel-tn__item-in1 carousel-tn__item-in1--desktop-in-1'>
-								<div class='item-in1-tn-content'>
-									<div class='item-in1-container'>
-										<div class='item-in1-img-container'>
-											<a href='_imagens/14810415938_eed2b13498_w.jpg'>
-												<img src='_imagens/14810415938_eed2b13498_w.jpg'/>
-											</a>
-										</div>
-										<div class='item-in1-desc-container'>
-											
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class='carousel-tn__item-in1 carousel-tn__item-in1--desktop-in-1'>
-								<div class='item-in1-tn-content'>
-									<div class='item-in1-container'>
-										<div class='item-in1-img-container'>
-											<a href='_imagens/30410456848_bc09dc43d4_w.jpg'>
-												<img src='_imagens/30410456848_bc09dc43d4_w.jpg'>
-											</a>
-										</div>
-										<div class='item-in1-desc-container'>
-											
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class='carousel-tn__item-in1 carousel-tn__item-in1--desktop-in-1'>
-								<div class='item-in1-tn-content'>
-									<div class='item-in1-container'>
-										<div class='item-in1-img-container'>
-											<a href='_imagens/glass-oculos-preto-grd.png'>
-												<img src='_imagens/glass-oculos-preto-grd.png'/>
-											</a>
-										</div>
-										<div class='item-in1-desc-container'>
-											
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+   <div class='rt-container'>
+	<div class='col-rt-12'>
+	 <div class='demo-container'>
+	  <div class='carousel-tn'>
+		<input checked='checked' class='carousel-tn__activator' id='carousel-tn-slide-activator-1' name='carousel-tn' type='radio'>
+		<input class='carousel-tn__activator' id='carousel-tn-slide-activator-2' name='carousel-tn' type='radio'>
+		<input class='carousel-tn__activator' id='carousel-tn-slide-activator-3' name='carousel-tn' type='radio'>
+		<input class='carousel-tn__activator' id='carousel-tn-slide-activator-4' name='carousel-tn' type='radio'>
+		<input class='carousel-tn__activator' id='carousel-tn-slide-activator-5' name='carousel-tn' type='radio'>					
+	<div class='carousel-tn__controls'>
+		<label class='carousel-tn__control carousel-tn__control--backward' for='carousel-tn-slide-activator-5'>&#60;</label>
+		<label class='carousel-tn__control carousel-tn__control--forward' for='carousel-tn-slide-activator-2'>&#62;</label>
 	</div>
+	<div class='carousel-tn__controls'>
+		<label class='carousel-tn__control carousel-tn__control--forward' for='carousel-tn-slide-activator-1'>&#60;</label>
+		<label class='carousel-tn__control carousel-tn__control--backward' for='carousel-tn-slide-activator-3'>&#62;</label>
+	</div>
+	<div class='carousel-tn__controls'>
+		<label class='carousel-tn__control carousel-tn__control--forward' for='carousel-tn-slide-activator-2'>&#60;</label>
+		<label class='carousel-tn__control carousel-tn__control--backward' for='carousel-tn-slide-activator-4'>&#62;</label>
+	</div>
+	<div class='carousel-tn__controls'>
+		<label class='carousel-tn__control carousel-tn__control--forward' for='carousel-tn-slide-activator-3'>&#60;</label>
+		<label class='carousel-tn__control carousel-tn__control--backward' for='carousel-tn-slide-activator-5'>&#62;</label>
+	</div>
+	<div class='carousel-tn__controls'>
+		<label class='carousel-tn__control carousel-tn__control--forward' for='carousel-tn-slide-activator-4'>&#60;</label>
+		<label class='carousel-tn__control carousel-tn__control--backward' for='carousel-tn-slide-activator-1'>&#62;</label>
+	</div>
+	<div class='carousel-tn__screen'>
+	<div class='carousel-tn__track'>
+	<div class='carousel-tn__item-in1 carousel-tn__item-in1--desktop-in-1'>
+	<div class='item-in1-tn-content'>
+	<div class='item-in1-container'>
+	<div class='item-in1-img-container'>
+		<a href='_imagens/15725595882_f56c888fb2_w.jpg'>
+		<img src='_imagens/15725595882_f56c888fb2_w.jpg'/>
+		</a>
+	</div>
+	<div class='item-in1-desc-container'>
+											
+	</div>
+	</div>
+	</div>
+	</div>
+	<div class='carousel-tn__item-in1 carousel-tn__item-in1--desktop-in-1'>
+	<div class='item-in1-tn-content'>
+	<div class='item-in1-container'>
+	<div class='item-in1-img-container'>
+	    <a href='_imagens/14173796195_84dc74a265_w.jpg'>
+	    <img src='_imagens/14173796195_84dc74a265_w.jpg'/>
+		</a>
+	</div>
+	<div class='item-in1-desc-container'>
+											
+	</div>
+    </div>
+  </div>
+</div>
+    <div class='carousel-tn__item-in1 carousel-tn__item-in1--desktop-in-1'>
+	<div class='item-in1-tn-content'>
+	<div class='item-in1-container'>
+	<div class='item-in1-img-container'>
+	    <a href='_imagens/14810415938_eed2b13498_w.jpg'>
+	    <img src='_imagens/14810415938_eed2b13498_w.jpg'/>
+	    </a>
+	</div>
+	<div class='item-in1-desc-container'>
+											
+	</div>
+	</div>
+   </div>
+	</div>
+	<div class='carousel-tn__item-in1 carousel-tn__item-in1--desktop-in-1'>
+	<div class='item-in1-tn-content'>
+	<div class='item-in1-container'>
+	<div class='item-in1-img-container'>
+	    <a href='_imagens/30410456848_bc09dc43d4_w.jpg'>
+	    <img src='_imagens/30410456848_bc09dc43d4_w.jpg'>
+	    </a>
+	</div>
+	<div class='item-in1-desc-container'>
+											
+	</div>
+	</div>
+	</div>
+	</div>
+	<div class='carousel-tn__item-in1 carousel-tn__item-in1--desktop-in-1'>
+	<div class='item-in1-tn-content'>
+	<div class='item-in1-container'>
+	<div class='item-in1-img-container'>
+		<a href='_imagens/glass-oculos-preto-grd.png'>
+		<img src='_imagens/glass-oculos-preto-grd.png'/>
+		</a>
+	</div>
+	<div class='item-in1-desc-container'>
+											
+	</div>
+	 </div>
+	 </div>
+	</div>
+    </div>
+    </div>
+	</div>
+    </div>
+    </div>
+	</div>
+	
 </section>
 
+
+</div>
+
+<div class="efeito-shining">
+	<p class="shining">Google Glass</p>
+	<p class="shining">Óculos smart</p>
+	<p class="shining">Adquira já</p>
+	
 </div>
 
 <footer id="rodape">
